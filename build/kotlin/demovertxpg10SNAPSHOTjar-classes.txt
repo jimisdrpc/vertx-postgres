@@ -1,0 +1,1 @@
+C:\_d\ZUP\WSs\demo-vertx-pg\build\classes\kotlin\main\AppKt$main$1.class;C:\_d\ZUP\WSs\demo-vertx-pg\build\classes\kotlin\main\AppKt.class

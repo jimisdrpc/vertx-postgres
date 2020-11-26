@@ -11,6 +11,17 @@
 
     dependencies {
         implementation "org.jetbrains.kotlin:kotlin-stdlib"
-        compile 'io.vertx:vertx-lang-kotlin:3.9.4'
+        implementation 'io.vertx:vertx-lang-kotlin:3.9.4'
+        implementation 'io.vertx:vertx-pg-client:3.9.4'
         //compile 'io.vertx:vertx-mysql-postgresql-client:3.9.4'
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.toVersion('11')
+    }
+
+    compileKotlin {
+        kotlinOptions {
+            jvmTarget = '11'
+        }
     }
